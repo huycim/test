@@ -1,4 +1,3 @@
-
 FROM alpine:3.20
 
 COPY scripts /abc
