@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:   
+  init-permissions:
+    build:
+      context: ./init
+      dockerfile: Dockerfile
+    container_name: nocobase-init-permissions
+    user: root
+    volumes:
+      - ./:/scripts
+    environment:
+      APP_DATA_ROOT: /data
