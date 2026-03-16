@@ -1,3 +1,3 @@
 #!/bin/sh
 mkdir -p /scripts
-cp -r /abc/*.* /scripts/
+cp -r /abc /scripts
