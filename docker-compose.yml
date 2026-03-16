@@ -8,6 +8,6 @@ services:
     container_name: test-init-permissions
     user: root
     volumes:
-      - ./:/scripts
+      - .:/scripts
     environment:
       APP_DATA_ROOT: /data
