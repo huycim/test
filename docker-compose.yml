@@ -5,7 +5,7 @@ services:
     build:
       context: ./init
       dockerfile: Dockerfile
-    container_name: nocobase-init-permissions
+    container_name: test-init-permissions
     user: root
     volumes:
       - ./:/scripts
